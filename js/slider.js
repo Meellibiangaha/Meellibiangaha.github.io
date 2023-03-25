@@ -4,39 +4,36 @@
 
 let carousel = document.querySelector('.carusel');
 let caruselItem = document.querySelectorAll('.carusel_item_li').length - 3;
-console.log(caruselItem); //skolko kartinok vsego
-    let width = 450; //size kartinki
+    let width; //size kartinki
     let count = 1;  //na skolko img prokrutka
     let list = carousel.querySelector('.carusel_item_ul');
     let listElems = carousel.querySelectorAll('.carusel_item_li');
     let position = 0;
 
     carousel.querySelector('.item_prev').onclick = function() {
+      width = document.querySelector('.carusel_item_li').clientWidth;
       if(position == 0){
         position = -width * caruselItem;
         list.style.marginLeft = position + 'px';
-        console.log(position);
       }
       else{
         position += width * count;
         position = Math.min(position, 0);
         list.style.marginLeft = position + 'px';
-        console.log(position);
       }
       
     };
 
     carousel.querySelector('.item_next').onclick = function() {
+      width = document.querySelector('.carusel_item_li').clientWidth;
       if(position == -(width * caruselItem)){
         position = 0;
         list.style.marginLeft = position + 'px';
-        console.log(position);
       }
       else{
         position -= width * count;
         position = Math.max(position, -width * (listElems.length - count));
         list.style.marginLeft = position + 'px';
-        console.log(position);
       }
       
     };
@@ -92,7 +89,6 @@ console.log(caruselItem); //skolko kartinok vsego
      let slider_3_next = document.querySelector('.sldider_3_next');
     let slider_3_imgs = document.querySelectorAll('.slider_3_imgs');
     let slider_3_texts = document.querySelectorAll('.slider_3_text');
-    console.log(slider_3_imgs[1]);
     let k = 0; //current_img
     slider_3_next.addEventListener('click', function() {
       ++k;
