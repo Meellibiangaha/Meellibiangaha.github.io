@@ -25,7 +25,7 @@ let buttonSwaps = document.querySelectorAll('.swap_theme');
 
 for(let i = 0; i < buttonSwaps.length; i++){
   buttonSwaps[i].addEventListener('click', function(){
-    let link = document.getElementById("theme_link");
+    let link = document.getElementById("theme_color_link");
     
     let currTheme = link.getAttribute("href");
     let theme = "";
@@ -39,7 +39,7 @@ for(let i = 0; i < buttonSwaps.length; i++){
       userTheme = fiolTheme;
     }
     else{
-      localStorage.setItem('theme', userTheme);
+      localStorage.setItem('theme_color', userTheme);
       link.setAttribute("href", currTheme);
     }
     
@@ -47,11 +47,14 @@ for(let i = 0; i < buttonSwaps.length; i++){
 }
 
 window.onload = function() {
-  if(localStorage.length != 0){
-    let current_theme = localStorage.getItem('theme');
+  if(localStorage.getItem("theme_color") == null){
+    document.getElementById("theme_color_link").setAttribute("href", fiolTheme);
+  }
+  else{
+    let current_theme = localStorage.getItem('theme_color');
     document.body.style.display = "none";
     setTimeout(() => document.body.style.display = "", 1); //я не знаю как, но это убирает ненужную анимацию при f5
-    document.getElementById("theme_link").setAttribute("href", current_theme);
+    document.getElementById("theme_color_link").setAttribute("href", current_theme);
   }
 }
 

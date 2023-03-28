@@ -120,7 +120,11 @@
 		max-width: 970px;
 	}
 
-	
+	figure.effect-text-one img{
+		width: 780px;
+	}
+
+
 	.info_block_1_stolb_box{
 		height: 220px;
 	}
@@ -297,4 +301,146 @@
 		max-width: none;
 	}
 	
+	.header_romb{
+		width: 25px;
+    	height: 25px;
+	}
+	.romb {
+    	width: 25px;
+    	height: 25px;
+	}
+	.page-header{
+		width: 90%;
+	}
+	.nav{
+		font-size: 32px;
+	}
+	.info_block_1_wrapper{
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.info_block_1_text{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 80px;
+	}
+
+	.inf_block_big_text{
+		font-size: 45px;
+		text-align: center;
+	}
+	
+	.inf_block_opis_text{
+		font-size: 34px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.flex_stolbs{
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.info_block_1_stolb{
+		width: 100%;
+	}
+
+	.romb_flexbox{
+		display: flex;
+		justify-content: center;
+		margin-left: 50px;
+	}
+	.info_block_1_stolb_box{
+		height: 380px;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+	}
+	.mini_text_stolb_box{
+		font-size: 28px;
+	}
+	.carusel{
+		width: 80%;
+	}
+	.carusel_window{
+		width: 790px;
+	}
+	.carusel img{
+		width: 360px;
+    	height: 360px;
+	}
+
+	.sldider_3_prev {
+    	height: 50px;
+    	width: 50px;
+	}
+	.sldider_3_prev > svg {
+    	margin-left: 0px;
+    	margin-top: 0px;
+	}
+	.item_next {
+   		height: 50px;
+   		width: 50px;
+	}
+	.sldider_3_next > svg {
+    	margin-left: 0px;
+    	margin-top: 0px;
+	}
+	.effect-text-one{
+		font-size: 20px;
+	}
+	figure.effect-text-one figcaption{
+		height: 44%;
+	}
+	.figcaption_long{
+		height: 49% !important;
+	}
+	.slider_2_imgs figure.effect-text-one figcaption{
+		height: 35%;
+	}
+	.slider_2_С110{
+		height: 55% !important;
+	}
+	.slider_2_DR30{
+		height: 40% !important;
+	}
+	.slider_2_text{
+		width: 500px;
+		font-size: 24px;
+	}
+	.slider_3_text {
+		width: 500px;
+		font-size: 24px;
+	}
+	.block_3_BigText{
+		font-size: 33px;
+	}
+	.block_3_MiniText{
+		font-size: 24px;
+	}
+	.block_4_column_glav_text{
+		font-size: 28px;
+	}
+	.block_4_column_mini_text{
+		font-size: 18px;
+	}
+	.block_4_button{
+		font-size: 22px;
+		width: 80%;
+	}
+	.modal__body {
+    	width: 60%;
+    	max-width: 60%;
+	}
+	.modal__title{
+		font-size: 30px;
+	}
+	.modal_text{
+		font-size: 24px;
+	}
+	.footer_wrapper{
+		font-size: 24px;
+	}
 }
