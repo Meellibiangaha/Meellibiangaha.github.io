@@ -86,3 +86,13 @@ for(let i = 0; i < podrobneeBtn.length; i++){
   modal.classList.add('modal_active');
 });
 }
+
+
+// sidebar
+
+let sidebar = document.querySelector('.sidebar');
+let openSidebarButton = document.querySelector('.open-sidebar');
+
+openSidebarButton.addEventListener('click', function() {
+  sidebar.classList.toggle('open'); // добавляем класс "open" для открытия или закрытия сайдбара
+});

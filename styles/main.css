@@ -63,6 +63,9 @@ img{
 	transition-duration: 0.3s;
 }
 
+.sidebar_wrapper{
+	display: none;
+}
 .swap_theme_flex{
 	padding-top: 10px;
 	width: 15%;

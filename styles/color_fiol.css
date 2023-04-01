@@ -24,7 +24,18 @@
 	transition-duration: 0.3s;
 	color: #7B68EE;
 }
-
+@media all and (max-width: 767px) {
+.sidebar{
+	transition-duration: 0.3s;
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	box-shadow: 0 0 .1rem #fff,
+            0 0 .2rem #fff,
+            0 0 .3rem #7B68EE,
+            0 0 .8rem #7B68EE,
+            0 0 1rem #7B68EE,
+            inset 0 0 1.3rem #7B68EE;
+}
+}
 .container_flexbox_block{
 	transition-duration: 0.3s;
 	border: 1px solid rgba(255, 255, 255, 0.6);

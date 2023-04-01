@@ -83,15 +83,15 @@
 	}
 	.sldider_3_prev > svg{
 		margin-left: -5px;
-   		margin-top: -5px;
+		margin-top: -5px;
 	}
 	.sldider_3_next{
 		height: 40px;
 		width: 40px;
 	}
 	.sldider_3_next > svg{
-		    margin-left: -5px;
-    		margin-top: -5px;
+		margin-left: -5px;
+		margin-top: -5px;
 	}
 
 	/*block_4*/
@@ -167,15 +167,15 @@
 	}
 	.sldider_3_prev > svg{
 		margin-left: -5px;
-   		margin-top: -5px;
+		margin-top: -5px;
 	}
 	.sldider_3_next{
 		height: 40px;
 		width: 40px;
 	}
 	.sldider_3_next > svg{
-		    margin-left: -5px;
-    		margin-top: -5px;
+		margin-left: -5px;
+		margin-top: -5px;
 	}
 	.mini_text_stolb_box{
 		font-size: 16px;
@@ -191,11 +191,11 @@
 	}
 	.header_romb{
 		width: 15px;
-    	height: 15px;
+		height: 15px;
 	}
 	.romb {
-    	width: 15px;
-    	height: 15px;
+		width: 15px;
+		height: 15px;
 	}
 	.page-header{
 		width: 90%;
@@ -220,24 +220,24 @@
 	}
 	.carusel img{
 		width: 360px;
-    	height: 360px;
+		height: 360px;
 	}
 
 	.sldider_3_prev {
-    	height: 50px;
-    	width: 50px;
+		height: 50px;
+		width: 50px;
 	}
 	.sldider_3_prev > svg {
-    	margin-left: 0px;
-    	margin-top: 0px;
+		margin-left: 0px;
+		margin-top: 0px;
 	}
 	.item_next {
-   		height: 50px;
-   		width: 50px;
+		height: 50px;
+		width: 50px;
 	}
 	.sldider_3_next > svg {
-    	margin-left: 0px;
-    	margin-top: 0px;
+		margin-left: 0px;
+		margin-top: 0px;
 	}
 	.effect-text-one{
 		font-size: 20px;
@@ -282,8 +282,8 @@
 		width: 80%;
 	}
 	.modal__body {
-    	width: 60%;
-    	max-width: 60%;
+		width: 60%;
+		max-width: 60%;
 	}
 	.modal__title{
 		font-size: 30px;
@@ -301,9 +301,58 @@
 		max-width: none;
 	}
 	
+
+	.page-header {
+		margin-top: 100px;
+		width: 400px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.nav{
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+	}
+	.swap_theme_flex{
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-around;
+	}
+	.swap_theme{
+		height: 40px;
+		width: 40px;
+	}
+	.sidebar {
+		position: fixed;
+		top: 0;
+		right: -370px;
+		width: 350px;
+		height: 500px;
+		transition: all 0.3s ease-out;
+		background: rgb(0, 0, 0, 0.8);
+	}
+
+	.open {
+		right: 50px; /* при открытии сайдбара меняем позицию */
+	}
+
+	.sidebar_wrapper {
+		width: 90%;
+		display: flex;
+		justify-content: flex-end;
+		z-index: 999; /* находится поверх сайдбара */
+	}
+
+	.github_akk > svg{
+		display: flex;
+		height: 70px;
+		width: 70px;
+		margin-left: 15px;
+	}
 	.header_romb{
 		width: 25px;
-    	height: 25px;
+		height: 25px;
 	}
 	.header_romb_flexbox{
 		margin-left: 90px;
@@ -318,12 +367,10 @@
 		font-size: 22px;
 	}
 	.romb {
-    	width: 25px;
-    	height: 25px;
+		width: 25px;
+		height: 25px;
 	}
-	.page-header{
-		width: 90%;
-	}
+
 	.nav{
 		font-size: 32px;
 	}
@@ -341,12 +388,12 @@
 	}
 
 	.inf_block_big_text{
-		font-size: 45px;
+		font-size: 48px;
 		text-align: center;
 	}
 	
 	.inf_block_opis_text{
-		font-size: 34px;
+		font-size: 38px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -381,7 +428,7 @@
 	}
 	.carusel img{
 		width: 400px;
-    	height: 400px;
+		height: 400px;
 	}
 	.carusel_item_prev{
 		height: 60px;
@@ -389,27 +436,27 @@
 	}
 	.carusel_item_prev > svg{
 		margin-left: 5px;
-    	margin-top: 5px;
+		margin-top: 5px;
 	}
 	.carusel_item_next > svg{
 		margin-left: 5px;
-    	margin-top: 5px;
+		margin-top: 5px;
 	}
 	.sldider_3_prev {
-    	height: 60px;
-    	width: 60px;
+		height: 60px;
+		width: 60px;
 	}
 	.sldider_3_prev > svg {
-    	margin-left: 5px;
-    	margin-top: 5px;
+		margin-left: 5px;
+		margin-top: 5px;
 	}
 	.item_next {
-   		height: 60px;
-   		width: 60px;
+		height: 60px;
+		width: 60px;
 	}
 	.sldider_3_next > svg {
-    	margin-left: 5px;
-    	margin-top: 5px;
+		margin-left: 5px;
+		margin-top: 5px;
 	}
 	.effect-text-one{
 		font-size: 25px;
@@ -445,15 +492,15 @@
 	}
 	.sldider_2_prev{
 		height: 60px;
-   		width: 60px;
+		width: 60px;
 	}
 	.sldider_2_prev >svg{
 		margin-left: 5px;
-    	margin-top: 5px;
+		margin-top: 5px;
 	}
 	.sldider_2_next >svg{
 		margin-left: 5px;
-    	margin-top: 5px;
+		margin-top: 5px;
 	}
 	.block_4_wrapper {
 		flex-direction: column;
@@ -478,8 +525,8 @@
 		padding: 25px;
 	}
 	.modal__body {
-    	width: 70%;
-    	max-width: 70%;
+		width: 70%;
+		max-width: 70%;
 	}
 	.modal__title{
 		font-size: 44px;
