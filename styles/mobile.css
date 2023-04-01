@@ -263,7 +263,7 @@
 	}
 	.slider_3_text {
 		width: 500px;
-		font-size: 24px;
+		font-size: 30px;
 	}
 	.block_3_BigText{
 		font-size: 33px;
@@ -421,17 +421,17 @@
 		height: 73% !important;
 	}
 	.slider_2_imgs figure.effect-text-one figcaption{
-		height: 35%;
+		height: 50%;
 	}
 	.slider_2_С110{
-		height: 55% !important;
+		height: 67% !important;
 	}
 	.slider_2_DR30{
-		height: 40% !important;
+		height: 50% !important;
 	}
 	.slider_2_text{
 		width: 500px;
-		font-size: 30px;
+		font-size: 36px;
 	}
 	.slider_3_text {
 		width: 600px;
@@ -441,10 +441,20 @@
 		font-size: 36px;
 	}
 	.block_3_MiniText{
-		font-size: 28px;
+		font-size: 30px;
 	}
-
-
+	.sldider_2_prev{
+		height: 60px;
+   		width: 60px;
+	}
+	.sldider_2_prev >svg{
+		margin-left: 5px;
+    	margin-top: 5px;
+	}
+	.sldider_2_next >svg{
+		margin-left: 5px;
+    	margin-top: 5px;
+	}
 	.block_4_wrapper {
 		flex-direction: column;
 		align-content: center;
@@ -460,7 +470,7 @@
 		font-size: 38px;
 	}
 	.block_4_column_mini_text{
-		font-size: 28px;
+		font-size: 30px;
 	}
 	.block_4_button{
 		font-size: 32px;
@@ -472,10 +482,10 @@
     	max-width: 70%;
 	}
 	.modal__title{
-		font-size: 42px;
+		font-size: 44px;
 	}
 	.modal_text{
-		font-size: 34px;
+		font-size: 38px;
 	}
 	.footer_wrapper{
 		font-size: 34px;
