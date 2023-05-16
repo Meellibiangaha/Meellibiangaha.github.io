@@ -185,6 +185,24 @@ img{
 	padding-top: 5px;
 }
 
+/* 3d_model_block */
+
+.block_wrapper_3d{
+	width: 100%;
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.h1_3d{
+	padding-bottom: 30px;
+}
+.canvas_place{
+	cursor: grab;
+	height: 700px;
+	width: 70%;
+}
 
 /*block_1*/
 

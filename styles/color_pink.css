@@ -4,6 +4,16 @@
 	box-shadow: 0px 0px 100px 100px rgba(229, 84, 195, 0.12);
 }
 
+.canvas_place{
+	transition-duration: 0.3s;
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	box-shadow: 0 0 .1rem #fff,
+            0 0 .2rem #fff,
+            0 0 .3rem #e554c3,
+            0 0 .8rem #e554c3,
+            0 0 1rem #e554c3,
+            inset 0 0 1.3rem #e554c3;
+}
 
 .nav__item__active{
 	transition-duration: 0.3s;

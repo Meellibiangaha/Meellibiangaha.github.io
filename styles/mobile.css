@@ -304,7 +304,7 @@
 
 	.page-header {
 		margin-top: 100px;
-		width: 400px;
+		width: auto;
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
@@ -315,6 +315,7 @@
 		margin-top: 20px;
 	}
 	.swap_theme_flex{
+		margin-top: 30px;
 		flex-direction: row;
 		width: 100%;
 		justify-content: space-around;
@@ -327,14 +328,13 @@
 		position: fixed;
 		top: 0;
 		right: -370px;
-		width: 350px;
-		height: 500px;
+		width: auto;
 		transition: all 0.3s ease-out;
 		background: rgb(0, 0, 0, 0.8);
 	}
 
 	.open {
-		right: 50px; /* при открытии сайдбара меняем позицию */
+		right: 0px; /* при открытии сайдбара меняем позицию */
 	}
 
 	.sidebar_wrapper {
@@ -349,6 +349,7 @@
 		height: 70px;
 		width: 70px;
 		margin-left: 15px;
+		margin-top: 30px;
 	}
 	.header_romb{
 		width: 25px;
